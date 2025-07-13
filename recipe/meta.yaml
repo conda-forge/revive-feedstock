@@ -1,5 +1,5 @@
 {% set name = "revive" %}
-{% set version = "1.10.0" %}
+{% set version = "1.11.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/mgechev/revive/archive/v{{ version }}.tar.gz
-  sha256: c7f8165cef5e9270b198b2fea4166641b3b824588eebdd600e25df1b50489a9c
+  sha256: 1624844ed9a3e33fab2f1af6485a3894be2e6050c8f06ecfc83fc236cbc09192
 
 build:
   number: 0
