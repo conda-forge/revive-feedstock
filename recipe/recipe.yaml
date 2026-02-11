@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 1.13.0
+  version: "1.14.0"
 
 package:
   name: revive
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://github.com/mgechev/revive/archive/v${{ version }}.tar.gz
-  sha256: fff05a782f016171a860bfd4341dd58bcb9f6abac099c5b3a0cf29a6e8ce48ac
+  sha256: 0c38a7e80fa00fc93bf57f87b80ada7576037af2d392d993ef4b0d089baaa34e
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
